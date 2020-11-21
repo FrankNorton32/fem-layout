@@ -39,16 +39,23 @@ div img {
 }
 /* Desktop screen Sizes */
 @media only screen and (min-width: 768px) {
-	.row-0 {
-
+	[class*="col-"] {
+		float: left;
 	}
-	.row-1 {
-
+	[class*="row"] {
+		float: left;
+		clear: none;
 	}
-	.row-2 {
-
-	}
-	.row-3 {
-
-	}
+	.col-1 {width: 8.08%;}
+	.col-2 {width: 16.16%;}
+	.col-3 {width: 24.25%;}
+	.col-4 {width: 32.33%;}
+	.col-5 {width: 40.42%;}
+	.col-6 {width: 48.5%;}
+	.col-7 {width: 56.58%;}
+	.col-8 {width: 64.67%;}
+	.col-9 {width: 72.75%;}
+	.col-10 {width: 80.83%;}
+	.col-11 {width: 88.91%;}
+	.col-12 {width: 97.00%;}
 }
